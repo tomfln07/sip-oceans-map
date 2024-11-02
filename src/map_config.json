@@ -1,0 +1,12 @@
+{
+	"default_coords": [5600, 1342],
+	"move_speed_factor": {
+		"touch_screen": 2,
+		"mouse": 1.2
+	},
+	"points": [
+		{
+			"coords": [5600, 1342]
+		}
+	]
+}

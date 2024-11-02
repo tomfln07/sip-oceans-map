@@ -13,7 +13,7 @@
 	-webkit-user-select: none;
 	-ms-user-select: none;
     z-index: 0;
-    object-fit: contain;
+    /*object-fit: contain;*/
     touch-action: none;
 }
 
@@ -22,6 +22,8 @@
 	top: 15px;
 	left: 15px;
 	z-index: 2;
+	color: white;
+	font-size: 20px;
 }
 
 #barrier {
@@ -30,5 +32,6 @@
     left: 0px;
     width: 100vw;
     height: 100vh;
+	box-shadow: inset 0px 0px 20px 10px #00000085;
     z-index: 1;
 }
