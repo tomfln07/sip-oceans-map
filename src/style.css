@@ -3,6 +3,16 @@
 	margin: 0px;
 }
 
-/*#root {
-	overflow: hidden;
-}*/
+.rubik-400 {
+	font-family: "Rubik", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 500;
+	font-style: normal;
+}
+
+.rubik-300 {
+	font-family: "Rubik", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 500;
+	font-style: normal;
+}

@@ -12,6 +12,7 @@ export function Map() {
 	const inf1 = useRef(null);
 	const inf2 = useRef(null);
 	const is_clicking = useRef(false);
+	const [is_nav_disabled, set_is_nav_disabled] = useState(false);
     const wheelEvent = 'onwheel' in document.createElement('div') ? 'wheel' : 'mousewheel';
 	var is_on_mobile = /Mobi|Android/i.test(navigator.userAgent);
 	var move_speed_factor = is_on_mobile ? config.move_speed_factor.touch_screen : config.move_speed_factor.mouse;
@@ -47,12 +48,13 @@ export function Map() {
 		}
 
 		const track_touch = e => {
+			if (is_nav_disabled) return;
 			e.preventDefault();
 			update_map_pos(mouse_pos_origin.current, [e.touches[0].clientX, e.touches[0].clientY]);
 		}
 		
 		const track_mouse = e => {
-			if (!mouse_pos_origin || !is_clicking.current) return;
+			if (!mouse_pos_origin || !is_clicking.current || is_nav_disabled) return;
 			update_map_pos(mouse_pos_origin.current, [e.clientX, e.clientY]);
 		}
 
@@ -118,7 +120,7 @@ export function Map() {
 			window.removeEventListener(wheelEvent, preventDefault);
             window.removeEventListener("resize", resize);
 		}
-	}, [])
+	}, [is_nav_disabled])
 	
 	setInterval(() => {
 		inf1.current.innerText = `x: ${coords.current[0]} | y: ${coords.current[1]};`;
@@ -138,7 +140,12 @@ export function Map() {
 				<img src={world} id="world" ref={world_img}/>
 				{
 					config.points.map((element, index) => (
-						<Item key={index} x={element.coords[0]} y={element.coords[1]} coords_ref={coords}/>
+						<Item 
+							key={index} 
+							pt_index={index}
+							coords_ref={coords}
+							desactivate_nav={(bool) => set_is_nav_disabled(bool)}
+						/>
 					))
 				}
 			</div>
