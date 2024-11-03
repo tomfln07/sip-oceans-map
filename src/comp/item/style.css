@@ -4,6 +4,7 @@
 	position: absolute;
 	transform: translate(-50%, -50%);
 	z-index: 2;
+	animation: point-in 1.25s;
 }
 
 .point-icon {
@@ -54,5 +55,22 @@
 	to { 
 		transform: translate(-50%, -50%) rotate(0deg) scale(0.8);
 		filter: brightness(35%);
+	}
+}
+
+@keyframes point-in {
+	from {
+		filter: blur(15px);
+		opacity: 0%;
+	}
+
+	50% {
+		filter: blur(15px);
+		opacity: 0%;
+	}
+
+	to {
+		filter: blur(0px);
+		opacity: 100%;
 	}
 }

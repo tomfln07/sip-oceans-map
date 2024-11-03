@@ -3,6 +3,11 @@
 	margin: 0px;
 }
 
+#root {
+	overflow: hidden;
+	background-color: rgb(0, 0, 0);
+}
+
 .rubik-400 {
 	font-family: "Rubik", sans-serif;
 	font-optical-sizing: auto;

@@ -2,6 +2,7 @@
 	background-color: rgb(0, 0, 0);
     overflow: hidden;
     position: relative;
+	animation: map-in 0.75s;
 }
 
 #world {
@@ -35,4 +36,23 @@
     height: 100vh;
 	box-shadow: inset 0px 0px 20px 10px #00000085;
     z-index: 1;
+	animation: shadow-in 1.5s;
+}
+
+@keyframes map-in {
+	from {
+		scale: 1.2;
+		opacity: 0;
+	}
+
+	to {
+		scale: 1;
+		opacity: 100;
+	}
+}
+
+@keyframes shadow-in {
+	from { box-shadow: none }
+	25% { box-shadow: none }
+	to { box-shadow: inset 0px 0px 20px 10px #00000085 }
 }
