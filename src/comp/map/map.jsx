@@ -152,7 +152,7 @@ export function Map() {
 		update_world_img_pos(coords.current);
 		set_is_nav_disabled(false);
 	}
-	console.log("refresh");
+
 	return (
 		<>
 			<div style={{ height: `100vh`, width: `100vw` }} id="map_container">
