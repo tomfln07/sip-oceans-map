@@ -5,7 +5,7 @@ import validate from "../../assets/check-512.png"
 import config from "../../map_config.json"
 import { Popup } from "../popup/popup"
 
-export function Item({ coords_ref, pt_index, desactivate_nav}) {
+export function Item({ coords_ref, pt_index, desactivate_nav, update_visited_pts}) {
 	const item_ref = useRef(null);
 	const [is_active, set_is_active] = useState(true);
 	const [show_popup, set_show_popup] = useState(false);
@@ -47,8 +47,8 @@ export function Item({ coords_ref, pt_index, desactivate_nav}) {
 				<h1 className="label rubik-400">{pt_data.current.label}</h1>
 			</div>
 			{ show_popup ? <Popup 
-				pt_data={pt_data.current} 
-				set_show_popup={(bool) => set_show_popup(bool)}
+				pt_data={pt_data.current}
+				unshow_popup={(unshow) => { update_visited_pts(pt_index); set_show_popup(!unshow) }}
 			/> : null}
 		</>
 	)

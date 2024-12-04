@@ -3,8 +3,10 @@ import { Item } from "../item/item";
 import "./style.css"
 import world from "../../assets/8081_earthmap10k.jpg"
 import config from "../../map_config.json"
+import { Pts_lists } from "../pts_list/pts_list";
 
 export function Map() {
+	const map_ref = useRef();
 	const coords = useRef(config.default_coords);
 	const mouse_pos_origin = useRef(null);
 	//const zoom = useRef(1);
@@ -25,6 +27,14 @@ export function Map() {
 	}
 
 	useEffect(() => {
+		if (import.meta.env.DEV) {
+			setInterval(() => {
+				if (inf1.current && inf2.current) {
+					inf1.current.innerText = `x: ${coords.current[0]} | y: ${coords.current[1]};`;
+					inf2.current.innerText = `rendered x: ${window.innerWidth / 2 - coords.current[0]} | rendered y: ${window.innerHeight / 2 - coords.current[1]}`;
+				}
+			}, 50);
+		}
 		console.log(`${is_on_mobile ? "Touch screen" : "Mouse"} tracking mode.`);
 		update_world_img_pos(coords.current);
 	}, []);
@@ -60,9 +70,14 @@ export function Map() {
 
 		const update_map_pos = (last_pos, new_pos) => {
 			if (!last_pos || !new_pos) return;
-			const delta_x = parseInt((last_pos[0] - new_pos[0]) * move_speed_factor);
-			const delta_y = parseInt((last_pos[1] - new_pos[1]) * move_speed_factor);
-			coords.current = [coords.current[0] + delta_x, coords.current[1] + delta_y];
+			var delta_x = parseInt((last_pos[0] - new_pos[0]) * move_speed_factor);
+			var delta_y = parseInt((last_pos[1] - new_pos[1]) * move_speed_factor);
+			if (window.innerWidth / 2 - (coords.current[0] + delta_x) > 0
+				|| coords.current[0] + delta_x + window.innerWidth / 2 > world_img.current.width) delta_x = 0;
+			if (window.innerHeight / 2 - (coords.current[1] + delta_y) > 0
+				|| coords.current[1] + delta_y + window.innerHeight / 2 > world_img.current.height) delta_y = 0;
+			const updated_pos = [coords.current[0] + delta_x, coords.current[1] + delta_y];
+			coords.current = updated_pos;
 			update_world_img_pos(coords.current);
 			mouse_pos_origin.current = new_pos;
 		}
@@ -121,22 +136,35 @@ export function Map() {
             window.removeEventListener("resize", resize);
 		}
 	}, [is_nav_disabled])
-	
-	setInterval(() => {
-		inf1.current.innerText = `x: ${coords.current[0]} | y: ${coords.current[1]};`;
-		inf2.current.innerText = `rendered x: ${window.innerWidth / 2 - coords.current[0]} | rendered y: ${window.innerHeight / 2 - coords.current[1]}`;
-	}, 50)
 
+	// Can't directly pass map_ref.current.update_visited_pts() 
+	// as map_ref.current don't exists at first render.
+	// Passing this wrapper calls update_visited_pts from its ref
+	// if it exists
+	const update_visited_pts_wrapper = (visited_pt_index) => {
+		if (map_ref.current) {
+			map_ref.current.update_visited_pts(visited_pt_index);
+		}
+	}
+
+	const update_coords = (new_coords) => {
+		coords.current = new_coords;
+		update_world_img_pos(coords.current);
+		set_is_nav_disabled(false);
+	}
+	console.log("refresh");
 	return (
 		<>
 			<div style={{ height: `100vh`, width: `100vw` }} id="map_container">
                 <div id="barrier"></div> {/* disallow user to drag-and-drop world img (preventing bugs when moving on the map) */}
-				<div id="infos">
-					<p ref={inf1}>x: | y: </p>
-					<p ref={inf2}>rendered x: | rendered y: </p>
-					<p>screen width: {window.innerWidth} | screen height: {window.innerHeight}</p>
-					<p>tracking mode: {is_on_mobile ? "touch screen" : "mouse"}</p>
-				</div>
+				{ import.meta.env.DEV ?
+					<div id="infos">
+						<p ref={inf1}>x: | y: </p>
+						<p ref={inf2}>rendered x: | rendered y: </p>
+						<p>screen width: {window.innerWidth} | screen height: {window.innerHeight}</p>
+						<p>tracking mode: {is_on_mobile ? "touch screen" : "mouse"}</p>
+					</div> : null
+				}
 				<img src={world} id="world" ref={world_img}/>
 				{
 					config.points.map((element, index) => (
@@ -145,10 +173,12 @@ export function Map() {
 							pt_index={index}
 							coords_ref={coords}
 							desactivate_nav={(bool) => set_is_nav_disabled(bool)}
+							update_visited_pts={update_visited_pts_wrapper}
 						/>
 					))
 				}
 			</div>
+			<Pts_lists ref={map_ref} coords_ref={coords} update_coords={update_coords} desactivate_nav={(bool) => set_is_nav_disabled(bool)}/>
 		</>
 	)
 }
