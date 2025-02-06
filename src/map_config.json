@@ -9,18 +9,18 @@
 		{
 			"coords": [5940, 1660],
 			"label": "Méditerranée",
-			"content": "Ceci est une description d'un des points."
+			"content": "Description"
 		},
 		{
 			"coords": [5185, 1250],
 			"label": "Mer Celtique",
-			"content": "Ceci est une description d'un des points.",
+			"content": "Description",
 			"scale": 0.8
 		},
 		{
 			"coords": [5330, 1200],
 			"label": "La Manche",
-			"content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Phasellus faucibus scelerisque eleifend donec pretium vulputate. Ultrices eros in cursus turpis massa tincidunt dui ut ornare. Cras adipiscing enim eu turpis egestas pretium aenean pharetra magna. Porttitor eget dolor morbi non arcu risus quis varius quam. In pellentesque massa placerat duis ultricies lacus. Scelerisque mauris pellentesque pulvinar pellentesque habitant morbi tristique senectus et. Nullam non nisi est sit amet facilisis magna etiam. Non sodales neque sodales ut etiam sit amet. Id diam maecenas ultricies mi eget mauris pharetra et ultrices. Quis ipsum suspendisse ultrices gravida dictum fusce ut placerat orci.",
+			"content": "Description",
 			"scale": 0.6
 		}
 	]
