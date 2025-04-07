@@ -9,19 +9,211 @@
 		{
 			"coords": [5940, 1660],
 			"label": "Méditerranée",
-			"content": "Description"
+			"content": [
+				{
+					"title": "Taux de particules plastiques",
+					"desc": "La Méditerranée est l'une des mers les plus polluées par les plastiques, avec une concentration de microplastiques atteignant des niveaux records de 1,25 million de fragments par km².  Cette pollution résulte principalement d'une production et d'une consommation excessives de plastique, ainsi que d'une gestion inadéquate des déchets.",
+					"src": [
+						{
+							"name": "wikipedia.org",
+							"href": "https://fr.wikipedia.org/wiki/Mer_M%C3%A9diterran%C3%A9e"
+						}
+					]
+				},
+				{
+					"title": "Taux de pollution",
+					"desc": "39 unités/km2 en moyenne pour les macro-déchets flottants et 510 unités/km2 pour les macro-déchets des fonds marins. Outre la pollution plastique, la Méditerranée subit une acidification rapide de ses eaux, une surpêche et une pollution massive par des métaux lourds et des nitrates.  Ces facteurs affectent la santé humaine, la disponibilité de l'eau, la production d'énergie et la sécurité alimentaire dans la région.",
+					"src": [
+						{
+							"name": "lemonde.fr",
+							"href": "https://www.lemonde.fr/planete/article/2024/11/19/le-bassin-de-la-mediterranee-une-region-encore-plus-exposee-aux-consequences-du-dereglement-climatique_6402919_3244.html"
+						}
+					]
+				},
+				{
+					"title": "Espèce la plus menacée",
+					"desc": "Le grand requin blanc (Carcharodon carcharias) est en danger critique d'extinction en Méditerranée. En novembre 2024, un jeune spécimen a été observé au large des côtes varoises, une rareté attribuée aux protections inégales entre les pays méditerranéens.",
+					"src": [
+						{
+							"name": "lemonde.fr",
+							"href": "https://www.lemonde.fr/planete/article/2024/11/19/un-grand-requin-blanc-observe-en-mediterranee-au-large-des-cotes-du-var_6402720_3244.html"
+						}
+					]
+				},
+				{
+					"title": "Réchauffement climatique",
+					"desc": "Depuis l'ère préindustrielle, la Méditerranée s'est réchauffée de près de 1,5 °C, soit 20 % plus rapidement que la moyenne mondiale. Ce réchauffement entraîne la disparition de plusieurs espèces végétales et animales, notamment les coraux et les prairies de posidonie. ",
+					"src": [
+						{
+							"name": "wikipedia.org",
+							"href": "https://fr.wikipedia.org/wiki/Mer_M%C3%A9diterran%C3%A9e"
+						}
+					]
+				},
+				{
+					"title": "Espèces invasives",
+					"desc": "Le réchauffement des eaux favorise l'arrivée d'espèces invasives venues de la mer Rouge, comme les barracudas à bouche jaune et les poissons-lapins, perturbant les écosystèmes locaux.",
+					"src": [
+						{
+							"name": "wikipedia.org",
+							"href": "https://fr.wikipedia.org/wiki/Mer_M%C3%A9diterran%C3%A9e"
+						}
+					]
+				},
+				{
+					"title": "Solution - Réduction de la pollution plastique",
+					"desc": "Mettre en œuvre des politiques strictes de gestion des déchets, promouvoir le recyclage et réduire l'utilisation de plastiques à usage unique. Des initiatives locales, comme les programmes de nettoyage des plages, peuvent également contribuer à diminuer la pollution plastique"
+				},
+				{
+					"title": "Solution - Protection des espèces menacées",
+					"desc": "Renforcer les réglementations sur la pêche pour éviter la capture accidentelle d'espèces en danger, créer des zones marines protégées et sensibiliser le public à l'importance de la biodiversité marine.  Ces mesures nécessitent une coopération internationale et une volonté politique forte pour assurer la santé et la durabilité des écosystèmes marins méditerranéens."
+				}
+			],
+			"images": []
 		},
 		{
-			"coords": [5185, 1250],
-			"label": "Mer Celtique",
-			"content": "Description",
-			"scale": 0.8
+			"coords": [5235, 1625],
+			"label": "Détroit de Gibraltar",
+			"content": [
+				{
+					"title": "Espèce la plus menacée",
+					"desc": "Les collisions avec les navires rendent particulièrement vulnérables les cétacés (baleines, dauphins...) Le nombre de collisions en mer est étroitement lié à la croissance du commerce maritime mondial, qui n'a cessé de se développer. Il est toutefois difficile d'obtenir des chiffres précis, notamment en raison de la difficulté à identifier les objets percutés, qui sont souvent classés comme des objets flottants non identifiés."
+				},
+				{
+					"title": "Donnée supplémentaire",
+					"desc": "La pollution sonore due au trafic maritime intense perturbe la communication et la navigation des mammifères marins, affectant leur comportement et leur santé."
+				},
+				{
+					"title": "Donnée supplémentaire",
+					"desc": "Le Détroit de Gibraltar est l’un des passages maritimes les plus fréquentés au monde, ce qui augmente considérablement le risque de collisions entre navires. Ces accidents peuvent entraîner des fuites de fioul, causant des marées noires qui polluent gravement les eaux."
+				},
+				{
+					"title": "Solution 1",
+					"desc": "Etablir des routes maritimes spécifiques et des limitations de vitesse pour réduire les risques de collision avec la faune marine. Aujourd’hui, des mesures ont été prises dans seulement 7% des zones dites à haut-risque."
+				},
+				{
+					"title": "Solution 2",
+					"desc": "Il faudrait avoir recours à de l’ingénierie marine. Par exemple des caméras en haut des mâts qui scrutent ce qu’il y’a devant la proue ou encore des pingers, c’est à dire des klaxons qui sont censés faire fuir les cétacés.",
+					"src": [
+						{
+							"name": "Les cétacés sont menacés par des collisions dues au trafic maritime, pourtant des solutions existent | Sorbonne Université| Sorbonne université",
+							"href": "https://www.sorbonne-universite.fr/actualites/les-cetaces-sont-menaces-par-des-collisions-dues-au-trafic-maritime-pourtant-des"
+						}
+					]
+				}
+			],
+			"images": []
 		},
 		{
-			"coords": [5330, 1200],
-			"label": "La Manche",
-			"content": "Description",
-			"scale": 0.6
+			"coords": [5300, 1325],
+			"label": "Golf de gascogne",
+			"content": [
+				{
+					"title": "Taux de particules plastiques",
+					"desc": "Selon les données du réseau national de surveillance des micro- et mésoplastiques échoués sur les plages françaises, en 2023, l'Unité Marine de Rapportage (UMR) Golfe de Gascogne Nord a enregistré une abondance médiane de 1 090 microplastiques (particules de 1 à 5 mm) et 1 090 mésoplastiques (particules de 5 mm à 2,5 cm) par 100 mètres de littoral. De plus, les chiffres clés de la mer et du littoral indiquent qu'entre 2015 et 2020, la densité moyenne de microplastiques flottant en mer était de 33 272 unités par km² dans le Golfe de Gascogne."
+				},
+				{
+					"title": "Taux de pollution dans cette zone",
+					"desc": "Le Golfe de Gascogne est fortement pollué par diverses sources : \n\n- Pollution plastique : En 2023, on a enregistré 1 090 microplastiques et 1 090 mésoplastiques pour 100 mètres de littoral. En mer, la densité de microplastiques flottants était de 33 272 unités par km²\n\n- Hydrocarbures : Environ 58 % des pollutions marines signalées en France sont des hydrocarbures, avec des incidents comme le naufrage du Grande America en 2019.\n\n- Pollution chimique : Le golfe est contaminé par des métaux lourds (mercure, plomb, cadmium, arsenic), souvent dus aux activités industrielles.\n\n- Eutrophisation : L'excès de nutriments (nitrates, phosphates) entraîne la prolifération d'algues nuisibles."
+				},
+				{
+					"title": "Espèce la plus menacée",
+					"desc": "Le marsouin commun (Phocoena phocoena) est l'une des espèces les plus menacées du Golfe de Gascogne. Ces cétacés sont fréquemment victimes de prises accidentelles dans les filets de pêche, notamment les chaluts pélagiques. Entre 2003 et 2004, environ 7 000 marsouins ont été tués dans cette zone, ce qui représente un taux de mortalité préoccupant pour l'espèce."
+				},
+				{
+					"title": "Déchets plastiques",
+					"desc": "Le Golfe de Gascogne est une zone de concentration de plastiques flottants, avec une forte présence de microplastiques. Ces déchets menacent la faune marine, car de nombreux animaux ingèrent ces particules, ce qui peut entraîner des problèmes de santé et des mortalités."
+				},
+				{
+					"title": "Eutrophisation",
+					"desc": "L'excès de nitrates et de phosphates provenant de l'agriculture intensive dans les bassins versants mène à des proliférations d'algues. Cela réduit l'oxygène dissous dans l'eau, affectant ainsi les poissons, mollusques et autres espèces marines."
+				},
+				{
+					"title": "Solution - Renforcer la réglementation sur les plastiques",
+					"desc": "Interdire ou réduire l'utilisation de plastiques à usage unique et encourager les alternatives durables. Des mesures comme des campagnes de sensibilisation et l'amélioration du recyclage peuvent aider à limiter l'accumulation de plastiques dans le Golfe de Gascogne."
+				},
+				{
+					"title": "Solution - Améliorer la gestion des nutriments agricoles",
+					"desc": "Mettre en place des pratiques agricoles durables pour réduire les excès de nitrates et de phosphates, comme l'adoption de systèmes de filtration des eaux de ruissellement et la promotion de l'agriculture de précision pour minimiser l'impact sur l'environnement.",
+					"src": [
+						{
+							"name": "plan-gestion.parc-marin-gironde-pertuis.fr",
+							"href": "https://plan-gestion.parc-marin-gironde-pertuis.fr/drupal/sites/default/files/2024-07/Rapport_suivi_m%C3%A9so_microplastiques_CEDRE_2023.pdf"
+						},
+						{
+							"name": "statistiques.developpement-durable.gouv.fr",
+							"href": "https://www.statistiques.developpement-durable.gouv.fr/edition-numerique/chiffres-cles-mer-littoral/26-dechets-en-mer"
+						}
+					]
+				}
+			],
+			"images": []
+		},
+		{
+			"coords": [5250, 1100],
+			"label": "Mer du Nord",
+			"content": [
+				{
+					"title": "Pollution plastique",
+					"desc": "La mer du Nord est gravement touchée par la pollution plastique, en grande partie à cause des déchets provenant des pays riverains comme la Belgique, les Pays-Bas, le Royaume-Uni, l'Allemagne et la France. La pollution plastique dans la mer du Nord, ainsi que dans d'autres océans, a un impact dévastateur sur de nombreuses espèces marines.  Voici quelques exemples d'espèces menacées par cette pollution :\n\n- Les tortues marines: Les tortues marines, comme la tortue luth et la tortue verte, ingèrent fréquemment des débris plastiques, notamment des sacs plastiques, qui ressemblent à des méduses, une partie importante de leur alimentation. L'ingestion de plastiques peut provoquer des obstructions dans leur système digestif, des infections internes, ou même la mort.\n\n- Les mouettes: Les mouettes, fous de Bassan, pétrels et autres oiseaux marins sont particulièrement vulnérables à la pollution plastique. Ils confondent souvent des morceaux de plastique avec leur nourriture, ce qui peut causer des obstructions intestinales, des blessures internes et la mort. Le pétrel fulmar, par exemple, est un oiseau dont l'estomac contient fréquemment des plastiques ingérés, entraînant une diminution de sa population.\n\n- Les cétacés: Les baleines et dauphins sont aussi menacés par la pollution plastique. Ces mammifères marins peuvent ingérer des morceaux de plastique ou en s'enrouler autour, ce qui peut entraîner des blessures graves ou des infections. Le plastique peut aussi se retrouver dans le phytoplancton et le zooplancton, base de la chaîne alimentaire, ce qui a des répercussions sur les cétacés qui se nourrissent de ces organismes.\n\n- Les poissons: De nombreuses espèces de poissons, comme le bar, le merlu, ou le thon, peuvent ingérer des microplastiques qui se retrouvent dans l'eau ou dans le zooplancton, un aliment important pour ces poissons. Ces microplastiques peuvent affecter leur santé, leur reproduction et même entrer dans la chaîne alimentaire humaine.\n\n- Les phoques: Les phoques sont également menacés par la pollution plastique. Ils peuvent s'enchevêtrer dans des filets de pêche abandonnés ou ingérer des plastiques, ce qui perturbe leur digestion et leur santé générale. Les jeunes phoques, en particulier, sont vulnérables aux déchets plastiques qui flottent à la surface. Ces espèces sont gravement affectées par la pollution plastique, ce qui met en péril non seulement leurs populations, mais aussi les écosystèmes marins dans lesquels elles évoluent.\nEnviron 3 tonnes de plastique sont déversées quotidiennement dans la mer Noire, ce qui équivaut à environ 1 095 tonnes par an."
+				},
+				{
+					"title": "Pollution Chimique",
+					"desc": "La mer du Nord subit également une pollution chimique provenant des activités industrielles et agricoles. Les pesticides, les nitrates et les métaux lourds provenant des champs agricoles sont souvent évacués dans les rivières qui se jettent dans la mer du Nord.\n\nAcidification des océans:\nLes produits chimiques tels que les nitrates et les phosphates, souvent issus des engrais agricoles, peuvent provoquer des phénomènes de pollution eutrophique. Ces substances stimulent la croissance excessive des algues, qui, lorsqu'elles meurent et se décomposent, libèrent du dioxyde de carbone (CO₂) dans l'eau. Cela contribue à l'acidification des océans, un processus qui réduit le pH de l'eau. Cette acidification menace les organismes marins qui dépendent de la calcification pour leurs coquilles ou squelettes, comme les mollusques, coraux, et crustacés. En mer du Nord, cela pourrait affecter les populations de coquilles Saint-Jacques ou de moules, essentiels pour l'écosystème et les activités économiques. Le Ph actuel de la mer Noir est de 8,2 cependant il pourrait croitre jusqu'à 8,5 voir 8,6 d’ici 2100. Ce chiffre alarmant implique des changements qui bouleverserait l’écosystème local. Cela concernerait particulièrement les planctons ainsi que les petits mollusques. En effet ces derniers ont besoin de d’une acidité de l’eau optimale pour former leur coquille et leur enveloppe extérieure."
+				},
+				{
+					"title": "Effet des activités maritimes",
+					"desc": "Les activités humaines telles que la pêche industrielle, le transport maritime et l'exploration pétrolière et gazière ont un impact considérable sur la mer du Nord. La pêche intensive a conduit à une réduction des populations de poissons et à la destruction des écosystèmes marins fragiles. Les navires génèrent des polluants tels que des hydrocarbures et des déchets, contribuant à la dégradation de la qualité de l'eau. L'extraction de pétrole et de gaz peut provoquer des fuites de pétrole et des perturbations dans les habitats marins.\n\nLe chalutage de fond:\nLe chalutage de fond, qui consiste à tracter un très lourd filet en forme d’entonnoir sur le plancher océanique, est sur la sellette. Il lui est reproché non seulement son manque de sélectivité, qui lui fait capturer de nombreuses prises accessoires de poissons ou de crustacés non ciblés, mais aussi son effet délétère sur les petits invertébrés qui vivent sur les fonds et constituent la base de la chaîne alimentaire marine."
+				},
+				{
+					"title": "Changement climatique",
+					"desc": "Le changement climatique a également un impact sur la mer du Nord. L'élévation des températures et la modification des courants marins affectent les écosystèmes locaux et entraînent des phénomènes comme la montée du niveau de la mer et l'acidification des océans. Ces changements ont un effet direct sur la biodiversité marine et peuvent rendre certaines zones plus vulnérables à la pollution.\n\nLa montée des eaux\nLa montée des eaux en mer du Nord est une conséquence directe du changement climatique, due à la fonte des glaciers et à l'expansion thermique des océans. Ce phénomène menace les côtes basses de pays comme les Pays-Bas, la Belgique et l'Allemagne, où des infrastructures de protection, comme les digues, doivent être constamment renforcées. L'érosion côtière s'accélère, menaçant les habitats naturels et les zones urbaines. De plus, l’élévation du niveau de la mer augmente la salinisation des terres agricoles, rendant certaines cultures moins productives. Enfin, la montée des eaux accroît le risque de tempêtes et d’inondations, mettant en péril les écosystèmes et les activités économiques côtières, notamment la pêche et le tourisme.\n\nTempérature de surface moyenne :\nLa température de la mer Noire s’est réchauffée de 0,7 degrés entre 2005 et 2019. Pas assez pour que, les Hommes s’en apercevions mais cela perturbe durablement les écosytèmes aquatiques faune comme flore.\nSelon des scientifiques bulgare la mer Noire est l’une des mers qui se réchauffe le plus au monde, avec des prévisions pessimistes allant jusqu’à +7 degrés d’ici la fin du siècle."
+				},
+				{
+					"title": "Solution - Renforcer la réglementation et la surveillance de la pollution plastique",
+					"desc": "L'introduction de lois plus strictes concernant la gestion des déchets plastiques et des produits chimiques dans les pays riverains pourrait réduire considérablement la pollution en mer du Nord. Des systèmes de collecte plus efficaces des déchets plastiques sur les plages et dans les ports, ainsi que la mise en place de technologies pour éliminer les plastiques en mer, sont nécessaires. Les campagnes de sensibilisation et l'engagement des citoyens à réduire leur consommation de plastique jouent également un rôle crucial."
+				},
+				{
+					"title": "Solution - Encourager la pêche durable et protéger les zones marines sensibles",
+					"desc": "L'instauration de zones marines protégées (ZMP) où la pêche est restreinte ou interdite permettrait de favoriser la régénération des écosystèmes marins. En outre, la promotion de pratiques de pêche durable, l'interdiction de la pêche illégale et l'amélioration des technologies de pêche permettant de réduire les prises accessoires peuvent aider à protéger la faune marine. La combinaison de ces actions aiderait à réduire les impacts humains sur la mer du Nord et à protéger cet écosystème précieux."
+				},
+				{
+					"title": "Une espèce menacée",
+					"desc": "La Raie-aigle vachette (Aetomylaeus Bovinus)\nCette espèce est classée en danger critique d'extinction (CR) par l'Union internationale pour la conservation de la nature (UICN). Cette classification est due à une diminution significative de sa population, estimée à plus de 80 % au cours des trois dernières générations. Les principales menaces pesant sur l'aigle vachette sont la surpêche, en tant que prise accessoire dans les pêcheries industrielles et artisanales, ainsi que la destruction de son habitat."
+				}
+			],
+			"images": []
+		},
+		{
+			"coords": [6010, 940],
+			"label": "Mer Baltique",
+			"content": [
+				{
+					"title": "Taux de particules plastiques",
+					"desc": "La mer Baltique, en raison de son envasement et de son faible renouvellement d’eau, accumule un taux élevé de plastiques. Selon une étude menée par l’Agence européenne pour l’environnement, la Baltique présente un niveau de microplastiques par mètre cube de deux fois supérieur à celui observé dans d'autres mers européennes, comme la Méditerranée. La présence élevée de plastiques nuit à la faune marine, notamment en raison de l'ingestion par les poissons et les oiseaux marins. De plus, ces microplastiques peuvent entrer dans la chaîne alimentaire et potentiellement affecter l'homme."
+				},
+				{
+					"title": "Taux de pollution (hydrocarbures, acidification, etc.)",
+					"desc": "Outre la pollution par les plastiques, la mer Baltique est également touchée par une contamination chimique, notamment avec la présence de munitions immergées datant de la Seconde Guerre mondiale. Ces munitions contiennent des agents chimiques tels que des produits chimiques toxiques, qui représentent une menace persistante pour la biodiversité. La mer Baltique est aussi sujette à l’acidification due à l'absorption des gaz à effet de serre, ce qui perturbe les écosystèmes marins et affecte des organismes tels que les coquillages, les crustacés et les coraux, dont la croissance est ralentie en raison de l’acidification de l'eau."
+				},
+				{
+					"title": "Espèce la plus menacée (le cabillaud)",
+					"desc": "Le cabillaud de la mer Baltique est une espèce particulièrement menacée, principalement en raison de la surpêche et de la mauvaise gestion des stocks. Les populations de cabillauds ont chuté de manière spectaculaire ces dernières décennies, en grande partie en raison de la surpêche industrielle, et cette situation a conduit à des interdictions de pêche pour éviter l’effondrement complet des stocks. En 2021, l'Union européenne a mis en place des mesures strictes interdisant la pêche commerciale du cabillaud dans la zone centrale de la mer Baltique. Cette situation a un impact important sur les pêcheurs locaux et l'industrie alimentaire, mais surtout sur l'écosystème marin."
+				},
+				{
+					"title": "Pollution marine",
+					"desc": "Eutrophisation\nL’eutrophisation est un phénomène causé par un excès de nutriments dans l’eau, notamment des nitrates et des phosphates, provenant principalement de l’agriculture, des eaux usées et de l'industrie. Dans la mer Baltique, ce phénomène est particulièrement grave, car l'excès de nutriments provoque une prolifération d'algues, qui consomme l'oxygène dans les eaux. Ce manque d'oxygène engendre des \"zones mortes\", des régions où la vie marine ne peut survivre, ce qui affecte les populations de poissons et d'autres organismes marins. L’eutrophisation réduit également la transparence de l'eau, perturbant la photosynthèse des plantes aquatiques.\n\nDésoxygénation des fonds marins\nEn raison de l’eutrophisation, de la stagnation de l’eau et de la pollution, environ 30 % des fonds marins de la mer Baltique sont désoxygénés, une condition où les niveaux d'oxygène dissous dans l'eau sont trop faibles pour soutenir la vie marine. Cela touche surtout les zones côtières et les fonds marins profonds. Cette désoxygénation est un facteur majeur de dégradation des habitats marins, entraînant la disparition de certaines espèces de poissons et de crustacés, et perturbant l'équilibre écologique. Les bactéries et autres micro-organismes qui prospèrent dans ces zones anoxiques peuvent libérer des gaz à effet de serre, comme le méthane, qui contribue au réchauffement climatique."
+				},
+				{
+					"title": "Solution - Réduction des apports en nutriments",
+					"desc": "Une des solutions majeures pour réduire l’eutrophisation dans la mer Baltique est de contrôler les apports excessifs en nutriments provenant de l’agriculture. Cela pourrait passer par la réduction de l’utilisation d’engrais chimiques et par l’adoption de pratiques agricoles durables, comme l'agriculture de conservation, la culture de plantes fixatrices d’azote, et le contrôle strict des rejets industriels. De plus, l'amélioration des infrastructures de traitement des eaux usées et la gestion plus stricte des zones urbaines côtières permettrait de réduire la pollution des rivières qui alimentent la mer Baltique."
+				},
+				{
+					"title": "Solution - Réoxygénation des zones mortes",
+					"desc": "Pour restaurer les habitats marins dégradés et rétablir la biodiversité, plusieurs projets de réoxygénation des fonds marins sont en développement. Ces projets consistent à injecter de l'oxygène dans les zones désoxygénées à l'aide de technologies innovantes. Une approche consiste à utiliser des turbines sous-marines pour mélanger les couches d’eau et augmenter la circulation, ce qui permettrait de mieux oxygéner les fonds marins. Bien que cette méthode soit encore expérimentale, elle offre un espoir pour la récupération de certains écosystèmes."
+				}
+			],
+			"images": []
 		}
 	]
 }

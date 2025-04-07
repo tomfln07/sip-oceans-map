@@ -20,7 +20,7 @@
 	max-width: 500px;
     background-color: rgb(221 221 221 / 30%);
     z-index: 4;
-    border-radius: 10px;
+    border-radius: 20px;
     backdrop-filter: blur(25px);
     padding: 15px;
     border: solid 1px #b7b7b742;
@@ -33,11 +33,15 @@
 
 .popup-box::-webkit-scrollbar { display: none }
 
-.popup-box h1, .popup-box p {
+.popup-box h1, .popup-box p, .content_title, a {
 	color: white;
     text-shadow: 0px 0px 11px #0000009e;
 	font-stretch: ultra-condensed;
 }
+
+.content_title { margin-left: 10px }
+
+.popup-infos-sources { font-style: italic }
 
 .popup-box p {
 	margin: 10px;
@@ -48,6 +52,10 @@
 .popup-box h1 { 
 	text-align: center;
 	padding-bottom: 15px;
+}
+
+.content_title {
+	color: white;
 }
 
 /*.popup-box-top {
