@@ -1,5 +1,5 @@
 {
-	"default_coords": [5600, 1342],
+	"default_coords": [5825, 1345],
 	"move_speed_factor": {
 		"touch_screen": 2,
 		"mouse": 1.2
@@ -69,7 +69,7 @@
 					"desc": "Renforcer les réglementations sur la pêche pour éviter la capture accidentelle d'espèces en danger, créer des zones marines protégées et sensibiliser le public à l'importance de la biodiversité marine.  Ces mesures nécessitent une coopération internationale et une volonté politique forte pour assurer la santé et la durabilité des écosystèmes marins méditerranéens."
 				}
 			],
-			"images": []
+			"images": [ "1.png" ]
 		},
 		{
 			"coords": [5235, 1625],
@@ -102,7 +102,7 @@
 					]
 				}
 			],
-			"images": []
+			"images": [ "2.png" ]
 		},
 		{
 			"coords": [5300, 1325],
@@ -147,27 +147,27 @@
 					]
 				}
 			],
-			"images": []
+			"images": [ "3.png" ]
 		},
 		{
-			"coords": [5250, 1100],
+			"coords": [5500, 1000],
 			"label": "Mer du Nord",
 			"content": [
 				{
 					"title": "Pollution plastique",
-					"desc": "La mer du Nord est gravement touchée par la pollution plastique, en grande partie à cause des déchets provenant des pays riverains comme la Belgique, les Pays-Bas, le Royaume-Uni, l'Allemagne et la France. La pollution plastique dans la mer du Nord, ainsi que dans d'autres océans, a un impact dévastateur sur de nombreuses espèces marines.  Voici quelques exemples d'espèces menacées par cette pollution :\n\n- Les tortues marines: Les tortues marines, comme la tortue luth et la tortue verte, ingèrent fréquemment des débris plastiques, notamment des sacs plastiques, qui ressemblent à des méduses, une partie importante de leur alimentation. L'ingestion de plastiques peut provoquer des obstructions dans leur système digestif, des infections internes, ou même la mort.\n\n- Les mouettes: Les mouettes, fous de Bassan, pétrels et autres oiseaux marins sont particulièrement vulnérables à la pollution plastique. Ils confondent souvent des morceaux de plastique avec leur nourriture, ce qui peut causer des obstructions intestinales, des blessures internes et la mort. Le pétrel fulmar, par exemple, est un oiseau dont l'estomac contient fréquemment des plastiques ingérés, entraînant une diminution de sa population.\n\n- Les cétacés: Les baleines et dauphins sont aussi menacés par la pollution plastique. Ces mammifères marins peuvent ingérer des morceaux de plastique ou en s'enrouler autour, ce qui peut entraîner des blessures graves ou des infections. Le plastique peut aussi se retrouver dans le phytoplancton et le zooplancton, base de la chaîne alimentaire, ce qui a des répercussions sur les cétacés qui se nourrissent de ces organismes.\n\n- Les poissons: De nombreuses espèces de poissons, comme le bar, le merlu, ou le thon, peuvent ingérer des microplastiques qui se retrouvent dans l'eau ou dans le zooplancton, un aliment important pour ces poissons. Ces microplastiques peuvent affecter leur santé, leur reproduction et même entrer dans la chaîne alimentaire humaine.\n\n- Les phoques: Les phoques sont également menacés par la pollution plastique. Ils peuvent s'enchevêtrer dans des filets de pêche abandonnés ou ingérer des plastiques, ce qui perturbe leur digestion et leur santé générale. Les jeunes phoques, en particulier, sont vulnérables aux déchets plastiques qui flottent à la surface. Ces espèces sont gravement affectées par la pollution plastique, ce qui met en péril non seulement leurs populations, mais aussi les écosystèmes marins dans lesquels elles évoluent.\nEnviron 3 tonnes de plastique sont déversées quotidiennement dans la mer Noire, ce qui équivaut à environ 1 095 tonnes par an."
+					"desc": "La mer du Nord est gravement touchée par la pollution plastique, en grande partie à cause des déchets provenant des pays riverains comme la Belgique, les Pays-Bas, le Royaume-Uni, l'Allemagne et la France. La pollution plastique dans la mer du Nord, ainsi que dans d'autres océans, a un impact dévastateur sur de nombreuses espèces marines.\nVoici quelques exemples d'espèces menacées par cette pollution :\n\n- Les tortues marines\nLes tortues marines, comme la tortue luth et la tortue verte, ingèrent fréquemment des débris plastiques, notamment des sacs plastiques, qui ressemblent à des méduses, une partie importante de leur alimentation. L'ingestion de plastiques peut provoquer des obstructions dans leur système digestif, des infections internes, ou même la mort.\n\n- Les mouettes\nLes mouettes, fous de Bassan, pétrels et autres oiseaux marins sont particulièrement vulnérables à la pollution plastique. Ils confondent souvent des morceaux de plastique avec leur nourriture, ce qui peut causer des obstructions intestinales, des blessures internes et la mort. Le pétrel fulmar, par exemple, est un oiseau dont l'estomac contient fréquemment des plastiques ingérés, entraînant une diminution de sa population.\n\n- Les cétacés\nLes baleines et dauphins sont aussi menacés par la pollution plastique. Ces mammifères marins peuvent ingérer des morceaux de plastique ou en s'enrouler autour, ce qui peut entraîner des blessures graves ou des infections. Le plastique peut aussi se retrouver dans le phytoplancton et le zooplancton, base de la chaîne alimentaire, ce qui a des répercussions sur les cétacés qui se nourrissent de ces organismes.\n\n- Les poissons\nDe nombreuses espèces de poissons, comme le bar, le merlu, ou le thon, peuvent ingérer des microplastiques qui se retrouvent dans l'eau ou dans le zooplancton, un aliment important pour ces poissons. Ces microplastiques peuvent affecter leur santé, leur reproduction et même entrer dans la chaîne alimentaire humaine.\n\n- Les phoques\nLes phoques sont également menacés par la pollution plastique. Ils peuvent s'enchevêtrer dans des filets de pêche abandonnés ou ingérer des plastiques, ce qui perturbe leur digestion et leur santé générale. Les jeunes phoques, en particulier, sont vulnérables aux déchets plastiques qui flottent à la surface.\nCes espèces sont gravement affectées par la pollution plastique, ce qui met en péril non seulement leurs populations, mais aussi les écosystèmes marins dans lesquels elles évoluent."
 				},
 				{
 					"title": "Pollution Chimique",
-					"desc": "La mer du Nord subit également une pollution chimique provenant des activités industrielles et agricoles. Les pesticides, les nitrates et les métaux lourds provenant des champs agricoles sont souvent évacués dans les rivières qui se jettent dans la mer du Nord.\n\nAcidification des océans:\nLes produits chimiques tels que les nitrates et les phosphates, souvent issus des engrais agricoles, peuvent provoquer des phénomènes de pollution eutrophique. Ces substances stimulent la croissance excessive des algues, qui, lorsqu'elles meurent et se décomposent, libèrent du dioxyde de carbone (CO₂) dans l'eau. Cela contribue à l'acidification des océans, un processus qui réduit le pH de l'eau. Cette acidification menace les organismes marins qui dépendent de la calcification pour leurs coquilles ou squelettes, comme les mollusques, coraux, et crustacés. En mer du Nord, cela pourrait affecter les populations de coquilles Saint-Jacques ou de moules, essentiels pour l'écosystème et les activités économiques. Le Ph actuel de la mer Noir est de 8,2 cependant il pourrait croitre jusqu'à 8,5 voir 8,6 d’ici 2100. Ce chiffre alarmant implique des changements qui bouleverserait l’écosystème local. Cela concernerait particulièrement les planctons ainsi que les petits mollusques. En effet ces derniers ont besoin de d’une acidité de l’eau optimale pour former leur coquille et leur enveloppe extérieure."
+					"desc": "La mer du Nord subit également une pollution chimique provenant des activités industrielles et agricoles. Les pesticides, les nitrates et les métaux lourds provenant des champs agricoles sont souvent évacués dans les rivières qui se jettent dans la mer du Nord.\n\n- Acidification des océans\nLes produits chimiques tels que les nitrates et les phosphates, souvent issus des engrais agricoles, peuvent provoquer des phénomènes de pollution eutrophique. Ces substances stimulent la croissance excessive des algues, qui, lorsqu'elles meurent et se décomposent, libèrent du dioxyde de carbone (CO₂) dans l'eau. Cela contribue à l'acidification des océans, un processus qui réduit le pH de l'eau. Cette acidification menace les organismes marins qui dépendent de la calcification pour leurs coquilles ou squelettes, comme les mollusques, coraux, et crustacés. En mer du Nord, cela pourrait affecter les populations de coquilles Saint-Jacques ou de moules, essentiels pour l'écosystème et les activités économiques."
 				},
 				{
 					"title": "Effet des activités maritimes",
-					"desc": "Les activités humaines telles que la pêche industrielle, le transport maritime et l'exploration pétrolière et gazière ont un impact considérable sur la mer du Nord. La pêche intensive a conduit à une réduction des populations de poissons et à la destruction des écosystèmes marins fragiles. Les navires génèrent des polluants tels que des hydrocarbures et des déchets, contribuant à la dégradation de la qualité de l'eau. L'extraction de pétrole et de gaz peut provoquer des fuites de pétrole et des perturbations dans les habitats marins.\n\nLe chalutage de fond:\nLe chalutage de fond, qui consiste à tracter un très lourd filet en forme d’entonnoir sur le plancher océanique, est sur la sellette. Il lui est reproché non seulement son manque de sélectivité, qui lui fait capturer de nombreuses prises accessoires de poissons ou de crustacés non ciblés, mais aussi son effet délétère sur les petits invertébrés qui vivent sur les fonds et constituent la base de la chaîne alimentaire marine."
+					"desc": "Les activités humaines telles que la pêche industrielle, le transport maritime et l'exploration pétrolière et gazière ont un impact considérable sur la mer du Nord. La pêche intensive a conduit à une réduction des populations de poissons et à la destruction des écosystèmes marins fragiles. Les navires génèrent des polluants tels que des hydrocarbures et des déchets, contribuant à la dégradation de la qualité de l'eau. L'extraction de pétrole et de gaz peut provoquer des fuites de pétrole et des perturbations dans les habitats marins.\n\n- Le chalutage de fond\nLe chalutage de fond, qui consiste à tracter un très lourd filet en forme d’entonnoir sur le plancher océanique, est sur la sellette. Il lui est reproché non seulement son manque de sélectivité, qui lui fait capturer de nombreuses prises accessoires de poissons ou de crustacés non ciblés, mais aussi son effet délétère sur les petits invertébrés qui vivent sur les fonds et constituent la base de la chaîne alimentaire marine."
 				},
 				{
 					"title": "Changement climatique",
-					"desc": "Le changement climatique a également un impact sur la mer du Nord. L'élévation des températures et la modification des courants marins affectent les écosystèmes locaux et entraînent des phénomènes comme la montée du niveau de la mer et l'acidification des océans. Ces changements ont un effet direct sur la biodiversité marine et peuvent rendre certaines zones plus vulnérables à la pollution.\n\nLa montée des eaux\nLa montée des eaux en mer du Nord est une conséquence directe du changement climatique, due à la fonte des glaciers et à l'expansion thermique des océans. Ce phénomène menace les côtes basses de pays comme les Pays-Bas, la Belgique et l'Allemagne, où des infrastructures de protection, comme les digues, doivent être constamment renforcées. L'érosion côtière s'accélère, menaçant les habitats naturels et les zones urbaines. De plus, l’élévation du niveau de la mer augmente la salinisation des terres agricoles, rendant certaines cultures moins productives. Enfin, la montée des eaux accroît le risque de tempêtes et d’inondations, mettant en péril les écosystèmes et les activités économiques côtières, notamment la pêche et le tourisme.\n\nTempérature de surface moyenne :\nLa température de la mer Noire s’est réchauffée de 0,7 degrés entre 2005 et 2019. Pas assez pour que, les Hommes s’en apercevions mais cela perturbe durablement les écosytèmes aquatiques faune comme flore.\nSelon des scientifiques bulgare la mer Noire est l’une des mers qui se réchauffe le plus au monde, avec des prévisions pessimistes allant jusqu’à +7 degrés d’ici la fin du siècle."
+					"desc": "Le changement climatique a également un impact sur la mer du Nord. L'élévation des températures et la modification des courants marins affectent les écosystèmes locaux et entraînent des phénomènes comme la montée du niveau de la mer et l'acidification des océans. Ces changements ont un effet direct sur la biodiversité marine et peuvent rendre certaines zones plus vulnérables à la pollution.\n\nLa montée des eaux\nLa montée des eaux en mer du Nord est une conséquence directe du changement climatique, due à la fonte des glaciers et à l'expansion thermique des océans. Ce phénomène menace les côtes basses de pays comme les Pays-Bas, la Belgique et l'Allemagne, où des infrastructures de protection, comme les digues, doivent être constamment renforcées. L'érosion côtière s'accélère, menaçant les habitats naturels et les zones urbaines. De plus, l’élévation du niveau de la mer augmente la salinisation des terres agricoles, rendant certaines cultures moins productives. Enfin, la montée des eaux accroît le risque de tempêtes et d’inondations, mettant en péril les écosystèmes et les activités économiques côtières, notamment la pêche et le tourisme."
 				},
 				{
 					"title": "Solution - Renforcer la réglementation et la surveillance de la pollution plastique",
@@ -182,7 +182,7 @@
 					"desc": "La Raie-aigle vachette (Aetomylaeus Bovinus)\nCette espèce est classée en danger critique d'extinction (CR) par l'Union internationale pour la conservation de la nature (UICN). Cette classification est due à une diminution significative de sa population, estimée à plus de 80 % au cours des trois dernières générations. Les principales menaces pesant sur l'aigle vachette sont la surpêche, en tant que prise accessoire dans les pêcheries industrielles et artisanales, ainsi que la destruction de son habitat."
 				}
 			],
-			"images": []
+			"images": [ "4.png", "5.png", "6.png" ]
 		},
 		{
 			"coords": [6010, 940],
@@ -213,7 +213,34 @@
 					"desc": "Pour restaurer les habitats marins dégradés et rétablir la biodiversité, plusieurs projets de réoxygénation des fonds marins sont en développement. Ces projets consistent à injecter de l'oxygène dans les zones désoxygénées à l'aide de technologies innovantes. Une approche consiste à utiliser des turbines sous-marines pour mélanger les couches d’eau et augmenter la circulation, ce qui permettrait de mieux oxygéner les fonds marins. Bien que cette méthode soit encore expérimentale, elle offre un espoir pour la récupération de certains écosystèmes."
 				}
 			],
-			"images": []
+			"images": [ "7.png" ]
+		},
+		{
+			"coords": [6460, 1400],
+			"label": "Mer Noir",
+			"content": [
+				{
+					"title": "Acidification",
+					"desc": "Le Ph actuel de la mer Noir est de 8,2 cependant il pourrait croitre jusqu'à 8,5 voir 8,6 d’ici 2100. Ce chiffre alarmant implique des changements qui bouleverserait l’écosystème local. Cela concernerait particulièrement les planctons ainsi que les petits mollusques. En effet ces derniers ont besoin de d’une acidité de l’eau optimale pour former leur coquille et leur enveloppe extérieure."
+				},
+				{
+					"title": "Une espèce menacée",
+					"desc": "Raie-aigle vachette (Aetomylaeus Bovinus)\nCette espèce est classée en danger critique d'extinction (CR) par l'Union internationale pour la conservation de la nature (UICN). Cette classification est due à une diminution significative de sa population, estimée à plus de 80 % au cours des trois dernières générations. Les principales menaces pesant sur l'aigle vachette sont la surpêche, en tant que prise accessoire dans les pêcheries industrielles et artisanales, ainsi que la destruction de son habitat."
+				},
+				{
+					"title": "Pollution chimique",
+					"desc": "175 substances toxiques retrouvées dans un seul échantillon d’eau en mer noire (2017)"
+				},
+				{
+					"title": "Température de surface moyenne",
+					"desc": "La température de la mer Noire s’est réchauffée de 0,7 degrés entre 2005 et 2019. Pas assez pour que, les Hommes s’en apercevions mais cela perturbe durablement les écosytèmes aquatiques faune comme flore.\nSelon des scientifiques bulgare la mer Noire est l’une des mers qui se réchauffe le plus au monde, avec des prévisions pessimistes allant jusqu’à +7 degrés d’ici la fin du siècle."
+				},
+				{
+					"title": "Pollution plastique",
+					"desc": "Environ 3 tonnes de plastique sont déversées quotidiennement dans la mer Noire, ce qui équivaut à environ 1 095 tonnes par an."
+				}
+			],
+			"images": [ "8.png" ]
 		}
 	]
 }

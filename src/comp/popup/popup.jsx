@@ -26,12 +26,14 @@ export function Popup({ pt_data, unshow_popup }) {
 						) : null }
 					</div>
 				)) }
-				{
-					pt_data.images.map((file_name, i) => {
-						const img = new URL(`../../assets/${file_name}`, import.meta.url).href;
-						return <img key={i} src={img} alt={`popup-img-${i}`} />;
-					})
-				}
+				<div style={{ width: "80%", margin: "auto", padding: "25px" }}>
+					{
+						pt_data.images.map((file_name, i) => {
+							const img = new URL(`../../assets/${file_name}`, import.meta.url).href;
+							return <img style={{ width: "100%", borderRadius: "8px" }} key={i} src={img} alt={`popup-img-${i}`} />;
+						})
+					}
+				</div>
 			</div>
 		</>
 	)
